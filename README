@@ -1,0 +1,16 @@
+FLECS Meson Template.
+
+This project is agnostic over what version controll system you are using.
+
+All source (Header and C) files should be sholud be put in the directory 'src',
+and the file 'src/meson.build' should be changed to have those files included.
+
+To start off open a terminal in the templates base-diretory (the direcory where
+this file resides), then do as follows:
+
+  $ mkdir build
+  $ cd build
+  $ meson ..
+  $ ninja
+
+This will download the required resoures, and compile a sanity-check.
